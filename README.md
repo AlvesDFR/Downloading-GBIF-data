@@ -20,5 +20,5 @@ Código:
 ```
 
 ## Contato
-
+![Foto](Imagens/curriculum4.jpg)
 Para mais informações, entre em contato comigo em meu endereço de e-mail: seuemail@example.com
