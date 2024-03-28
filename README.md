@@ -20,6 +20,6 @@ Código:
 ```
 
 ## Contato
-<img src="curriculum4.jpg" width="50">
+<img src="curriculum4.jpg" width="150">
 
-Para mais informações, entre em contato comigo em meu endereço de e-mail: seuemail@example.com
+Para mais informações, entre em contato comigo em meu endereço de e-mail: douglas_biologo@yahoo.com.br
