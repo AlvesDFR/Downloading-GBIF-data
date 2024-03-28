@@ -9,5 +9,5 @@ Este repositório contém uma coleção dos meus projetos em Python e R, demonst
 Descrição: Este projeto analisa dados de vendas de uma empresa e cria visualizações para identificar tendências.
 
 Código:
-```r
+```python
 # Seu código Python aqui
