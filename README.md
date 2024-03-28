@@ -20,6 +20,6 @@ Código:
 ```
 
 ## Contato
-[![Foto](C:/Users/OEM/OneDrive/Área de Trabalho/teste/curriculum4.jpg)]
+[![Foto](C:\Users\OEM\OneDrive\Área de Trabalho\teste\curriculum4.jpg)]
 
 Para mais informações, entre em contato comigo em meu endereço de e-mail: seuemail@example.com
