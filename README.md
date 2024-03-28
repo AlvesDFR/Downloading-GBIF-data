@@ -20,6 +20,6 @@ Código:
 ```
 
 ## Contato
-![Foto](curriculum4.jpg)
+![Foto](curriculum4.jpg width="10" height="10")
 
 Para mais informações, entre em contato comigo em meu endereço de e-mail: seuemail@example.com
