@@ -17,6 +17,8 @@ Código:
 ```python
 # Seu código Python aqui
 
+```
+
 ## Contato
 
 Para mais informações, entre em contato comigo em meu endereço de e-mail: seuemail@example.com
