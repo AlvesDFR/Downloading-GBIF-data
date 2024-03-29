@@ -12,9 +12,9 @@ Here, I use the RGBIF package from r to obtain longitude and latitude data, as w
 ## Introduction
 - Firstly, it is necessary to register at https://www.gbif.org/.
 
-Write down your login details:
-GBIF_USER="XXXXXXX"
-GBIF_PWD="12345678"
+Write down your login details:  
+GBIF_USER="XXXXXXX"  
+GBIF_PWD="12345678"  
 GBIF_EMAIL="XXXXXXXXX@XXXXXX.com.br"
 
 - Second, install the rgbif package.
