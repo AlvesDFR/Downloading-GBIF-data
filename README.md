@@ -1,12 +1,28 @@
-# Meu Portfólio de Python e R
+# Downloading species occurrence data from GBIF into R
 
-Este repositório contém uma coleção dos meus projetos em Python e R, demonstrando minhas habilidades em programação e análise de dados.
+This is a short tutorial on how we can download data from GBIF.
+Here, I use the RGBIF package from r to obtain longitude and latitude data, as well as other information that may be relevant.
 
 ## Índice
 - [Introdução](#introdução)
 - [Projetos](#projetos)
   - [Projeto 1](#projeto-1)
 - [Contato](#contato)
+
+## Introduction
+- Firstly, it is necessary to register at https://www.gbif.org/.
+
+Write down your login details:
+GBIF_USER="XXXXXXX"
+GBIF_PWD="12345678"
+GBIF_EMAIL="XXXXXXXXX@XXXXXX.com.br"
+
+- Second, install the rgbif package.
+
+```
+install.packages("rgbif")
+```
+
 ## Projetos
 
 ### Projeto 1: Análise de Dados em Python
