@@ -4,7 +4,7 @@ This is a short tutorial on how we can download data from GBIF.
 Here, I use the RGBIF package from r to obtain longitude and latitude data, as well as other information that may be relevant.
 
 ## Índice
-- [Introdução](#introdução)
+- [First steps](#First steps)
 - [Projetos](#projetos)
   - [Projeto 1](#projeto-1)
 - [Contato](#contato)
