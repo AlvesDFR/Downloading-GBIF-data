@@ -1,10 +1,10 @@
 # Downloading species occurrence data from GBIF into R
 
-This is a short tutorial on how we can download data from GBIF.
+This is a short tutorial on how we can download data from GBIF.  
 Here, I use the RGBIF package from r to obtain longitude and latitude data, as well as other information that may be relevant.
 
 ## Índice
-- [First steps](#first steps)
+- [First steps](#first-steps)
 - [Projetos](#projetos)
   - [Projeto 1](#projeto-1)
 - [Contato](#contato)
@@ -23,6 +23,13 @@ Here, I use the RGBIF package from r to obtain longitude and latitude data, as w
 install.packages("rgbif")
 ```
 
+- 4) Set up your GBIF credentials in r environment:
+ ```
+usethis::edit_r_environ()
+```
+Paste your data (GBIF_USER, GBIF_PWD and GBIF_EMAIL) into .Renviron
+
+     
 ## Projetos
 
 ### Projeto 1: Análise de Dados em Python
