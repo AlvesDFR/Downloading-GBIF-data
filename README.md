@@ -49,7 +49,7 @@ df <- occ_download_get(gbif_download) %>% occ_download_import()
 ## Selecting and saving data
 
 
-<img src="dados_gbif.jpg" width="1500">  
+<img src="gbif_columns.jpg" width="1500">  
 
 ```
 occ_gbif<-data.frame(df$species, df$decimalLongitude, df$decimalLatitude, df$gbifID, df$datasetKey, df$year, df$coordinatePrecision)  
@@ -59,6 +59,6 @@ occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),]
 
 
 ## Contato
-<img src="curriculum4.jpg" width="150">
+<img src="photo.jpg" width="150">
 
 Para mais informações, entre em contato comigo em meu endereço de e-mail: douglas_biologo@yahoo.com.br
