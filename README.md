@@ -58,7 +58,7 @@ colnames(occ_gbif)<-c('sp','longitude','latitude','gbifID','datasetID','year')
 #Excluding occurrences without longitude and latitude data
 occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),] 
 ```
-<img src="gbif_columns.jpg" width="1500">
+<img src="head.jpg" width="1500">
 
 ## Contato
 <img src="photo.jpg" width="150">
