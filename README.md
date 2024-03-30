@@ -5,8 +5,9 @@ Here, I use the RGBIF package from r to obtain longitude and latitude data, as w
 
 ## Índice
 - [First steps](#first-steps)
-- [Projetos](#projetos)
-  - [Projeto 1](#projeto-1)
+- [Searching for taxonkeys](#searching-for-taxonkeys)
+- [Downloading data](#downloading-data)
+- [Selecting and saving data](#selecting-and-saving-data)
 - [Contato](#contato)
 
 ## First steps
@@ -30,17 +31,18 @@ usethis::edit_r_environ()
 Paste your data (GBIF_USER, GBIF_PWD and GBIF_EMAIL) into .Renviron
 
      
-## Projetos
+## Searching for taxonkeys
+Searching for the taxonkey for the species
 
-### Projeto 1: Análise de Dados em Python
-
-Descrição: Este projeto analisa dados de vendas de uma empresa e cria visualizações para identificar tendências.
-
-Código:
+## Downloading data
+Download data for each unique taxonkey
 ```python
 # Seu código Python aqui
 
 ```
+
+## Selecting and saving data
+<img src="dados_gbif.jpg" width="1500">
 
 ## Contato
 <img src="curriculum4.jpg" width="150">
