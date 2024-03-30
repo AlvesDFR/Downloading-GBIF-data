@@ -34,31 +34,31 @@ Paste your data (GBIF_USER, GBIF_PWD and GBIF_EMAIL) into .Renviron
 ## Searching for taxonkeys
 Searching for the taxonkey for the species
 ```python
-taxon_key <- occ_search(scientificName = sp)$data
+taxon_key <- occ_search(scientificName = "Mithraculus forceps")$data
 unique(taxon_key$taxonKey)
 ```
 
 ## Downloading data
 Download data for each unique taxonkey
 ```
-gbif_download <- occ_download(pred("taxonKey", TAXON_KEY_HERE),format = "SIMPLE_CSV")
+gbif_download <- occ_download(pred("taxonKey", 2226763),format = "SIMPLE_CSV")
 occ_download_wait(gbif_download)
 df <- occ_download_get(gbif_download) %>% occ_download_import()
 ```
 
 ## Selecting and saving data
-Among all the columns of information available in GBIF, in this exercise I selected seven of them, see below.
+Among all the columns of information available in GBIF, in this exercise I selected six of them, see below.
 
 <img src="gbif_columns.jpg" width="1500">  
 
 ```
-occ_gbif<-data.frame(df$species, df$decimalLongitude, df$decimalLatitude, df$gbifID, df$datasetKey, df$year, df$coordinatePrecision)  
+occ_gbif<-data.frame(df$species, df$decimalLongitude, df$decimalLatitude, df$gbifID, df$datasetKey, df$year)  
 #Renaming the columns
-colnames(occ_gbif)<-c('sp','longitude','latitude','gbifID','datasetID','year','precision')  
+colnames(occ_gbif)<-c('sp','longitude','latitude','gbifID','datasetID','year')  
 #Excluding occurrences without longitude and latitude data
 occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),] 
 ```
-
+<img src="gbif_columns.jpg" width="1500">
 
 ## Contato
 <img src="photo.jpg" width="150">
