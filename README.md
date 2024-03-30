@@ -47,13 +47,15 @@ df <- occ_download_get(gbif_download) %>% occ_download_import()
 ```
 
 ## Selecting and saving data
-
+Among all the columns of information available in GBIF, in this exercise I selected seven of them, see below.
 
 <img src="gbif_columns.jpg" width="1500">  
 
 ```
 occ_gbif<-data.frame(df$species, df$decimalLongitude, df$decimalLatitude, df$gbifID, df$datasetKey, df$year, df$coordinatePrecision)  
+#Renaming the columns
 colnames(occ_gbif)<-c('sp','longitude','latitude','gbifID','datasetID','year','precision')  
+#Excluding occurrences without longitude and latitude data
 occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),] 
 ```
 
