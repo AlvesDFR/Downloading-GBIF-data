@@ -53,12 +53,19 @@ Among all the columns of information available in GBIF, in this exercise I selec
 
 ```
 occ_gbif<-data.frame(df$species, df$decimalLongitude, df$decimalLatitude, df$gbifID, df$datasetKey, df$year)  
+
 #Renaming the columns
 colnames(occ_gbif)<-c('sp','longitude','latitude','gbifID','datasetID','year')  
+
 #Excluding occurrences without longitude and latitude data
-occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),] 
+occ_gbif<-occ_gbif[complete.cases(occ_gbif[,2:3]),]
+
+#Saving .csv file
+write.csv(occ_gbif, "occ_gbif.csv")
 ```
 <img src="head.jpg" width="1500">
+
+
 
 ## Contato
 <img src="photo.jpg" width="150">
