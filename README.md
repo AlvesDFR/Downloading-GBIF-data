@@ -3,7 +3,7 @@
 This is a short tutorial on how we can download data from GBIF.  
 Here, I use the RGBIF package from r to obtain longitude and latitude data, as well as other information that may be relevant.
 
-## Index
+## Contents
 - [First steps](#first-steps)
 - [Searching for taxonkeys](#searching-for-taxonkeys)
 - [Downloading data](#downloading-data)
