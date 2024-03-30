@@ -3,12 +3,12 @@
 This is a short tutorial on how we can download data from GBIF.  
 Here, I use the RGBIF package from r to obtain longitude and latitude data, as well as other information that may be relevant.
 
-## Índice
+## Index
 - [First steps](#first-steps)
 - [Searching for taxonkeys](#searching-for-taxonkeys)
 - [Downloading data](#downloading-data)
 - [Selecting and saving data](#selecting-and-saving-data)
-- [Contato](#contato)
+- [Contact](#contact)
 
 ## First steps
 - 1) It is necessary to register at https://www.gbif.org/.
@@ -67,7 +67,7 @@ write.csv(occ_gbif, "occ_gbif.csv")
 
 
 
-## Contato
+## Contact
 <img src="photo.jpg" width="150">
 
-Para mais informações, entre em contato comigo em meu endereço de e-mail: douglas_biologo@yahoo.com.br
+For more information, please contact me at my email: douglas_biologo@yahoo.com.br
